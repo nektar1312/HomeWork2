@@ -1,0 +1,14 @@
+.table{
+    border: 1px solid #000;
+}
+
+.tr{
+    border: 1px solid #000;
+}
+.td{
+    border: 1px solid #000;
+}
+.colspan{
+    border: 1px solid #000;
+    text-align: center;
+}
