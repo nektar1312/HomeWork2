@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lesson 12 поля ввода</title>
+</head>
+<body>
+<form>
+   <label for="#name">Ваше имя</label>
+   <input id="name" type="text">
+   <br>
+   <label for="#surname">Ваша фамилия</label>
+   <input id="surname" type="text">
+   <br>
+   <label for="#tel">Номер телефона</label>
+   <input id="tel" type="tel">
+   <br>
+   <label for="#mail">Вашу почту</label>
+   <input id="mail" type="email">
+   <br>
+   <label for="#date">Дата и Время</label>
+   <input id="date" type="datetime-local">
+   <br>
+   <br>
+   <fieldset>
+    <legend>Выберете количество огурцов для доставки</legend>
+    <input type="radio" name="cucumber">1 огурец
+    <input type="radio" name="cucumber">2 огурца
+    <input type="radio" name="cucumber">3 огурца
+   </fieldset>
+   <br>
+   <input type="submit">
+   <input type="reset">
+</form>
+</body>
+</html>
